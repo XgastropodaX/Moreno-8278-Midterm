@@ -7,6 +7,10 @@ TagManager:
   - coin
   - player
   - cone
+  - enemy
+  - ammo
+  - button
+  - button2
   layers:
   - Default
   - TransparentFX
