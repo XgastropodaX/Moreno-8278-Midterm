@@ -11,6 +11,7 @@ TagManager:
   - ammo
   - button
   - button2
+  - button3
   layers:
   - Default
   - TransparentFX
