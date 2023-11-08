@@ -12,6 +12,7 @@ TagManager:
   - button
   - button2
   - button3
+  - talk
   layers:
   - Default
   - TransparentFX
