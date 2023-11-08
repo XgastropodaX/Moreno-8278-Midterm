@@ -20236,8 +20236,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hey! Press the red buttons to access the destruct button. Click to shoot
-    and space to jump. Wasd to move
+  m_text: 'Hey! Press the red buttons to access the destruct button. Click to shoot
+    and space to jump. Wasd to move. Press E to talk to the sign if you go close
+    to it. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
