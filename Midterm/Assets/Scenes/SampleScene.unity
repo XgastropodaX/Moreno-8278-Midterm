@@ -21535,16 +21535,16 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8fcfbdd049f4a1744af299468587dcb2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: -2.4
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 2.02
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
@@ -21581,7 +21581,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.124
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -21596,7 +21596,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.66944444
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -21611,7 +21611,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -21642,7 +21642,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 74a7e2f3691803a44adb215b7ed1ef3d, type: 2}
+  - {fileID: 2100000, guid: 1ccaa7b92e2829c449e37f5a4446c1e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21708,7 +21708,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -25479,9 +25479,9 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 0
-    ratio: 0
-    light: {fileID: 0}
+    enabled: 1
+    ratio: 1
+    light: {fileID: 1191939115}
     randomDistribution: 1
     color: 1
     range: 1
@@ -27391,6 +27391,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!108 &1191939115 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6007593631837514919, guid: c44594be1cf4182408559a7501fdf7e2, type: 3}
+  m_PrefabInstance: {fileID: 3998124792881435861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1208024542
 PrefabInstance:
   m_ObjectHideFlags: 0
